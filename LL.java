@@ -15,12 +15,14 @@ public class LL{
         list.addFirst("30");
         list.addFirst("40");
         list.addLast("BORN");
-        list.print();
+        // list.print();
+        list.remove("30");
+        list.remove("DANK");
 
         // list.deleteLast();
         // list.deleteLast();
-        list.deleteFirst();
-        list.deleteFirst();
+        // list.deleteFirst();
+        // list.deleteFirst();
         list.print();
 
 
@@ -80,10 +82,89 @@ public class LL{
             return prev.data;
         }
 
+        // public E deleteLast(){
+        //     aNode<E> last = tail.data;
+        //     tail.next = last.next;
+        //     return last.data;
+        // }
+
         public E deleteFirst(){
             aNode<E> first  = head.next;
             head.next = first.next;
             return first.data;
         }
 
+        // public E remove(){
+        //     // // System.out.println("bomo");
+        //     // return "class";
+            
+        // }
+
+        //         public void print(){
+        //     //curr = current;
+        //     aNode<E> curr = head.next;
+        //     while(curr.next != null){    
+        //         System.out.println(curr.data);
+        //         curr = curr.next;
+        //     }
+        // }
+
+
+        // private aNode<E> curr1 = head.next;
+        // private aNode<E> del = curr1.next;
+
+        // public void remove(E e){
+        //     while(curr1.next != null){
+        //         if(curr1.data == e){
+        //             curr1.next = del.next;
+        //             delData();
+        //         }
+        //     }
+        // }
+        // public E delData(){
+        //     return del.data;
+
+        // }
+
+        // public void remove(E e){
+        //     aNode<E> curr = head.next;
+        //     curr = null;
+        //     // while(curr.next != null){
+        //     //     if(curr.data == e){
+        //     //         aNode<E> del = curr.next;
+        //     //         curr.next = del.next;
+        //     //         // return del.data;
+        //     //     }
+        //     // }
+        // }
+
+        // private E abc;
+        // public E remove(String abc){
+        //     aNode<E> curr = head.next;
+        //     aNode<E> prev = curr;
+        //     // aNode<E> trash = new aNode<E>();
+        //     while(curr.next != null){
+        //         if(curr.data == abc){
+        //             // trash.data = curr.data;
+        //             prev.next = curr.next;
+        //             return curr.data;
+        //         }
+        //         prev = curr;
+        //         curr = curr.next;
+        //     }
+        // }
+
+        public void remove(E e){
+            aNode<E> curr = head.next;
+            aNode<E> prev = curr;
+            while(curr.next != null){
+                if(curr.data == e){
+                    prev.next = curr.next;
+                }
+                prev = curr;
+                curr = curr.next;
+            }
+        }
+
+        
     }
