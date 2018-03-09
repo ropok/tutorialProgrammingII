@@ -1,12 +1,14 @@
-
+// NOT WORKING .
 import java.util.*;
 
 public class SQ{
     public static void main(String[] args){
         System.out.println("TEST");
-        LinkedList<String> list = new LinkedList<String>();
-        list.add("22");
-        System.out.println(list);
+        // LinkedList<String> list = new LinkedList<String>();
+        // list.add("22");
+        // list.add("33");
+        // list.add("44");
+        // System.out.println(list);
 
         StackQueue<Integer> snq = new StackQueue<Integer>();
         // Stack
@@ -22,7 +24,7 @@ public class SQ{
 }
 
 class StackQueue<E>{
-    LinkedList ll = new LinkedList();
+    LinkedList<E> ll = new LinkedList<E>();
 
     // Stack
     public void push(E e){
