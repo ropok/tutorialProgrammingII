@@ -5,7 +5,7 @@ Have a nice day!
 
 ## Code List :
 1. LL.java -> implementing LinkedList
-2. SQ.java -> implementing Stack and Queue with LinkedList (Underconstructed)
+2. StackAndQueueWithLL.java -> implementing Stack and Queue with LinkedList (Underconstructed)
 
 
     **Stack and Queue with LinkedList:**
