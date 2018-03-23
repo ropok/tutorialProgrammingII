@@ -47,7 +47,6 @@ class Node {
     }
 
     public void printPreOrder(){
-        // PreOrder = 10 5 8 15
         System.out.print(data + " ");
         if (left != null){
             left.printPreOrder();
