@@ -1,4 +1,4 @@
-
+// From Youtube Tree - HackerRank + GeeksforGeeks Tree Traversal (link in Readme.md)
 
 class Node {
     Node left, right;
@@ -18,7 +18,7 @@ class Node {
         }
     }
 
-    public boolean contains(int value){
+    public boolean contains(int value){ // Will return true if found, else false.
         if (value == data) {
             return true;
         } else if (value < data) {
@@ -40,7 +40,7 @@ class Node {
         if (left != null){
             left.printInOrder();
         }
-        System.out.println(data);
+        System.out.print(data + " ");
         if (right != null) {
             right.printInOrder();
         }
@@ -48,23 +48,24 @@ class Node {
 
     public void printPreOrder(){
         // PreOrder = 10 5 8 15
-        System.out.println(data);
+        System.out.print(data + " ");
         if (left != null){
-            left.printInOrder();
+            left.printPreOrder();
         }
         if (right != null) {
-            right.printInOrder();
+            right.printPreOrder();
         }
     }
 
-    // public void find(int value){
-    //     if (value == data) System.out.println("We found the data!");
-    //     else if (value < data){
-    //         if (left == null){
-    //             return false;
-    //         }
-    //     }
-    // }
+    public void printPostOrder(){
+        if (left != null){
+            left.printPostOrder();
+        }
+        if (right != null){
+            right.printPostOrder();
+        }
+        System.out.print(data + " ");
+    }
 }
 
 
@@ -80,12 +81,26 @@ public class BinarySearchTree{
     }
 
     public static void main(String[] args){
-        System.out.println("GOOD");
+        // System.out.println("GOOD");
         BinarySearchTree tree = new BinarySearchTree();
-        tree.root = new Node(10);
-        tree.root.insert(5);
-        tree.root.insert(8);
+        tree.root = new Node(25);
         tree.root.insert(15);
-        tree.root.printPreOrder();
+        tree.root.insert(50);
+        tree.root.insert(10);
+        tree.root.insert(22);
+        tree.root.insert(35);
+        tree.root.insert(70);
+        tree.root.insert(4);
+        tree.root.insert(12);
+        tree.root.insert(18);
+        tree.root.insert(24);
+        tree.root.insert(31);
+        tree.root.insert(44);
+        tree.root.insert(66);
+        tree.root.insert(90);
+        System.out.print(tree.root.contains(24)); // Try to find 24 value
+        // tree.root.printInOrder();
+        // tree.root.printPreOrder();
+        // tree.root.printPostOrder();
     }
 }

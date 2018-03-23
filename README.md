@@ -17,6 +17,7 @@ Have a nice day!
     * Enqueue : LinkedList.addLast()
     * Dequeue : LinkedList.removeFirst()
 3. Tree - Basic of Tree and Binary Search Tree
+    * [Binary Search Tree Implementation](https://github.com/ropok/tutorialProgrammingII/blob/master/Tree/BinarySearchTree.java) : insert(value), contains(value), printInOrder(), printPreOrder, printPostOrder().
 
 
 ## Recommended Resources to Learn :
