@@ -82,24 +82,27 @@ public class BinarySearchTree{
     public static void main(String[] args){
         // System.out.println("GOOD");
         BinarySearchTree tree = new BinarySearchTree();
-        tree.root = new Node(25);
-        tree.root.insert(15);
-        tree.root.insert(50);
-        tree.root.insert(10);
-        tree.root.insert(22);
-        tree.root.insert(35);
-        tree.root.insert(70);
-        tree.root.insert(4);
-        tree.root.insert(12);
-        tree.root.insert(18);
-        tree.root.insert(24);
-        tree.root.insert(31);
+        tree.root = new Node(23);
+        tree.root.insert(30);
         tree.root.insert(44);
-        tree.root.insert(66);
-        tree.root.insert(90);
-        System.out.print(tree.root.contains(24)); // Try to find 24 value
-        // tree.root.printInOrder();
-        // tree.root.printPreOrder();
-        // tree.root.printPostOrder();
+        tree.root.insert(42);
+        tree.root.insert(93);
+        tree.root.insert(21);
+        tree.root.insert(56);
+        tree.root.insert(89);
+        tree.root.insert(2);
+        tree.root.insert(34);
+        tree.root.insert(46);
+        tree.root.insert(98);
+        tree.root.insert(50);
+        tree.root.insert(45);
+        tree.root.insert(65);
+        tree.root.insert(14);
+        // System.out.print(tree.root.contains(24)); // Try to find 24 value
+        System.out.print("PreOrder : "); tree.root.printPreOrder();
+        System.out.println();
+        System.out.print("InOrder : "); tree.root.printInOrder();
+        System.out.println();
+        System.out.print("PostOrder : "); tree.root.printPostOrder();
     }
 }

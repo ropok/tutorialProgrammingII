@@ -18,6 +18,14 @@ Have a nice day!
     * Dequeue : LinkedList.removeFirst()
 3. Tree - Basic of Tree and Binary Search Tree
     * [Binary Search Tree Implementation](https://github.com/ropok/tutorialProgrammingII/blob/master/Tree/BinarySearchTree.java) : insert(value), contains(value), printInOrder(), printPreOrder, printPostOrder().
+4. Red-Black Tree : 
+    * [Basic Rules](https://www.youtube.com/watch?v=nMExd4DthdA).
+    * [Example: Insert, Color Flip, Rotation](https://www.youtube.com/watch?v=v6eDztNiJwo&t=).
+    * [Another Example](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/).
+5. 2-3-4 Tree :
+    * [Nice Visualization](https://www.educative.io/page/5689413791121408/80001).
+
+> no code implementation for Red-Black Tree and 2-3-4 Tree, due to fu*ked up stuffs.
 
 
 ## Recommended Resources to Learn :
