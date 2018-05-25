@@ -1,5 +1,16 @@
 
 
+
+// Simple Implementation with Array
+// Example : 
+// ( )  : vertex
+// ---- : edge
+// --1-- : edge with weight (1)
+//
+// (0)-------1--------(1)
+//  |\-------2----(2)------2------(3)
+//  |--------------10-------------/
+
 public class djikstraTutorial{
     public static void main (String[] args){
 

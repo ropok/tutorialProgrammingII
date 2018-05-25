@@ -22,8 +22,11 @@ Have a nice day!
     * [Basic Rules](https://www.youtube.com/watch?v=nMExd4DthdA).
     * [Example: Insert, Color Flip, Rotation](https://www.youtube.com/watch?v=v6eDztNiJwo&t=).
     * [Another Example](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/).
+    * [RBT dope](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 5. 2-3-4 Tree :
     * [Nice Visualization](https://www.educative.io/page/5689413791121408/80001).
+6. Djikstra :
+    * [Simple Implementation with Array](https://github.com/ropok/tutorialProgrammingII/blob/master/Djikstra/djikstraTutorial.java)
 
 > no code implementation for Red-Black Tree and 2-3-4 Tree, due to fu*ked up stuffs.
 
